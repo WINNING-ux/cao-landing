@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAO - The Cursed Meme Coin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: linear-gradient(to right, #00FF99, #00CCFF);
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header {
+      max-width: 800px;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    nav {
+      margin-bottom: 30px;
+    }
+    .btn {
+      background-color: #000;
+      color: #fff;
+      padding: 14px 28px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      margin: 10px;
+      transition: background 0.2s;
+      display: inline-block;
+    }
+    .btn:hover {
+      background-color: #222;
+    }
+    .btn.whitepaper {
+      background-color: #00CCFF;
+      color: #000;
+    }
+    .section {
+      max-width: 700px;
+      margin: 40px 0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #000;
+    }
+    footer a {
+      color: #00CCFF;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CAO</h1>
+    <h2>The Most Cursed Meme Coin on Solana</h2>
+    <nav>
+      <a href="whitepaper.html" class="btn whitepaper">📄 Whitepaper</a>
+    </nav>
+    <div style="font-size: 99px; width: 90%; height: 90%; display: flex; justify-content: center; align-items: center; overflow-wrap: break-word; padding: 5%; text-align: justify; text-align-last: justify; box-sizing: border-box; filter: blur(1.5px);" class="text-center">操</div>
+  </header>
+
+  <div class="section">
+    <p><strong>CAO</strong> means what you think it means. It's raw, it's rude, and it's ready to moon — powered by memes, bots, and AI degeneracy. Embrace the curse, join the revolution.</p>
+  </div>
+
+  <div class="section">
+    <h3>🚀 Token Info</h3>
+    <p><strong>Total Supply:</strong> 420,000,000,000<br />
+    <strong>Tax:</strong> 0%<br />
+    <strong>Liquidity:</strong> Locked<br />
+    <strong>Ownership:</strong> Renounced<br />
+    <strong>Chain:</strong> Solana<br />
+    <strong>Ticker:</strong> $CAO</p>
+  </div>
+
+  <div class="section">
+    <h3>🧠 AI-Run Chaos</h3>
+    <ul>
+      <li>🤖 Daily meme drops curated by AI</li>
+      <li>📊 Treasury votes via automated polls</li>
+      <li>🎁 Meme-to-earn airdrop missions</li>
+      <li>🔥 Viral raids coordinated by bots</li>
+    </ul>
+  </div>
+
+  <div>
+    <a class="btn" href="#">🚀 BUY $CAO</a>
+    <a class="btn" href="#">🎁 JOIN AIRDROP</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 CAO Coin. All memes reserved. Powered by chaos and AI. &nbsp;|&nbsp; <a href="whitepaper.html">Whitepaper</a></p>
+  </footer>
+</body>
+</html>
