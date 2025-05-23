@@ -9,7 +9,7 @@
     body {
       margin: 0;
       font-family: 'Rubik', sans-serif;
-      background-color: #00FF99;
+      background: linear-gradient(to right, #00FF99, #00CCFF);
       color: #000;
       display: flex;
       flex-direction: column;
@@ -17,66 +17,97 @@
       padding: 40px 20px;
       text-align: center;
     }
+    header {
+      max-width: 800px;
+      padding: 20px;
+    }
     h1 {
-      font-size: 3rem;
+      font-size: 4rem;
       margin-bottom: 10px;
     }
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       margin-bottom: 30px;
+    }
+    .hero-img {
+      width: 300px;
+      height: 300px;
+      border-radius: 30px;
+      margin: 20px 0;
+      object-fit: cover;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
     }
     .btn {
       background-color: #000;
       color: #fff;
-      padding: 12px 24px;
+      padding: 14px 28px;
       text-decoration: none;
       border-radius: 10px;
-      font-size: 1.1rem;
-      margin-top: 20px;
+      font-size: 1.2rem;
+      margin: 10px;
       transition: background 0.2s;
+      display: inline-block;
     }
     .btn:hover {
       background-color: #222;
     }
     .section {
-      max-width: 600px;
-      margin: 30px 0;
+      max-width: 700px;
+      margin: 40px 0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul li {
+      margin: 10px 0;
+      font-size: 1.1rem;
     }
     footer {
-      margin-top: 50px;
+      margin-top: 60px;
       font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-  <h1>CAO</h1>
-  <h2>The Most Cursed Meme Coin on Solana</h2>
+  <header>
+    <h1>CAO</h1>
+    <h2>The Most Cursed Meme Coin on Solana</h2>
+    <img class="hero-img" src="https://i.imgur.com/JnUVP2F.png" alt="CAO Brat Image" />
+  </header>
 
   <div class="section">
-    <p><strong>CAO</strong> means what you think it means. It's not polite. It's not safe. It's not asking. It's just here to moon — powered by AI, memes, and pure degenerate energy.</p>
+    <p><strong>CAO</strong> means what you think it means. It's raw, it's rude, and it's ready to moon — powered by memes, bots, and AI degeneracy. Embrace the curse, join the revolution.</p>
   </div>
 
   <div class="section">
     <h3>🚀 Token Info</h3>
-    <p>420,000,000,000 supply • 0% tax • LP locked • Ownership renounced</p>
-    <p><strong>Chain:</strong> Solana<br/><strong>Ticker:</strong> $CAO</p>
+    <p><strong>Total Supply:</strong> 420,000,000,000<br />
+    <strong>Tax:</strong> 0%<br />
+    <strong>Liquidity:</strong> Locked<br />
+    <strong>Ownership:</strong> Renounced<br />
+    <strong>Chain:</strong> Solana<br />
+    <strong>Ticker:</strong> $CAO</p>
   </div>
 
   <div class="section">
     <h3>🧠 AI-Run Chaos</h3>
-    <ul style="list-style: none; padding: 0;">
-      <li>🤖 Daily meme drops</li>
-      <li>📊 AI-run treasury votes</li>
-      <li>🎁 Meme-to-earn airdrops</li>
-      <li>🔥 Viral raids managed by bots</li>
+    <ul>
+      <li>🤖 Daily meme drops curated by AI</li>
+      <li>📊 Treasury votes via automated polls</li>
+      <li>🎁 Meme-to-earn airdrop missions</li>
+      <li>🔥 Viral raids coordinated by bots</li>
     </ul>
   </div>
 
-  <a class="btn" href="#">BUY CAO</a>
-  <a class="btn" href="#">AIRDROP</a>
+  <div>
+    <a class="btn" href="#">🚀 BUY $CAO</a>
+    <a class="btn" href="#">🎁 JOIN AIRDROP</a>
+  </div>
 
   <footer>
-    <p>&copy; 2025 CAO Coin. All memes reserved.</p>
+    <p>&copy; 2025 CAO Coin. All memes reserved. Powered by chaos and AI.</p>
   </footer>
 </body>
 </html>
